@@ -1,0 +1,14 @@
+---
+- name: install forever
+  command: yarn global add forever
+
+- name: install dependencies
+  command: yarn install
+  args:
+    chdir: /app
+
+- name: run application
+  become: yes
+  command: forever start .
+  args:
+    chdir: /app

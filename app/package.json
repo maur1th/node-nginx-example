@@ -1,0 +1,10 @@
+{
+  "name": "app",
+  "version": "0.1",
+  "main": "index.js",
+  "author": "Thomas Maurin",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
